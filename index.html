@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aiswarya V S - Tech Enthusiast & Computer Science Student. Portfolio showcasing projects, leadership, and achievements.">
+  <title>Aiswarya V S | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="nav-logo">
+        AISWARYA<span class="logo-dot"></span>
+      </a>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#timeline" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light theme">
+          <!-- Moon Icon -->
+          <svg class="moon-icon" viewBox="0 0 24 24">
+            <path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .2 1.1.7.1.5-.2 1-.7 1.1-3.6.7-6.2 3.9-6.2 7.7 0 4.4 3.6 8 8 8 3.8 0 7-2.6 7.7-6.2.1-.5.6-.8 1.1-.7.5.1.8.6.7 1.1-.9 4.7-5 8.2-9.8 8.2z"/>
+          </svg>
+          <!-- Sun Icon -->
+          <svg class="sun-icon" viewBox="0 0 24 24">
+            <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.01c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span class="hero-tag-pulse"></span>
+          Seeking Internship
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Aiswarya V S</span><br>
+          <span class="typewriter-container">
+            <span class="typewriter-text" id="typewriter">Tech Enthusiast</span>
+          </span>
+        </h1>
+        <p class="hero-desc">
+          Ambitious Computer Science student and Co-Lead at Mulearn LBSITW. Passionate about building interactive web applications, exploring blockchain space, and organizing tech communities.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="avatar-frame">
+          <div class="avatar-img-container">
+            <img src="assets/profile.jpg" alt="Aiswarya V S Photo" id="avatar-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <p class="section-subtitle">A summary of my academic background, experience, and what drives me as a developer.</p>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Hello! I am Aiswarya V S.</h3>
+          <p>
+            I am a B.Tech Computer Science student at LBS Institute of Technology for Women, Poojappura. Driven by curiosity and a desire to build real-world solutions, I have spent my academic years developing applications across the MERN stack, experimenting with database systems, and diving into blockchain architecture.
+          </p>
+          <p>
+            Beyond coding, I'm highly active in student tech leadership. Helping run Mulearn, TinkerHub, and IEEE sub-committees has taught me how to coordinate teams, lead community workshops, and communicate technical ideas clearly.
+          </p>
+          
+          <div class="info-list">
+            <div class="info-item">
+              <span class="info-label">Current Role</span>
+              <span class="info-value">Student & Community Leader</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Degree</span>
+              <span class="info-value">B.Tech in Computer Science</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Email</span>
+              <span class="info-value"><a href="mailto:aiswaryavs420@gmail.com">aiswaryavs420@gmail.com</a></span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-value">Thiruvananthapuram, India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-container">
+          <div>
+            <div class="skills-category-title">
+              <span>💻</span> Languages & Core
+            </div>
+            <div class="skills-grid">
+              <div class="skill-badge">Python</div>
+              <div class="skill-badge">C</div>
+              <div class="skill-badge">Java</div>
+              <div class="skill-badge">Dart</div>
+              <div class="skill-badge">JavaScript</div>
+              <div class="skill-badge">HTML5 & CSS3</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="skills-category-title">
+              <span>⚙️</span> Web & Databases
+            </div>
+            <div class="skills-grid">
+              <div class="skill-badge">React.js</div>
+              <div class="skill-badge">Node.js</div>
+              <div class="skill-badge">MongoDB</div>
+              <div class="skill-badge">MySQL</div>
+              <div class="skill-badge">MERN Stack</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="skills-category-title">
+              <span>🔗</span> Concepts & Frameworks
+            </div>
+            <div class="skills-grid">
+              <div class="skill-badge">Flutter Basics</div>
+              <div class="skill-badge">Git & Version Control</div>
+              <div class="skill-badge">Open Source Contribution</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION TIMELINE -->
+  <section class="timeline-section" id="timeline">
+    <div class="container">
+      <h2 class="section-title">My <span class="gradient-text-alt">Journey</span></h2>
+      <p class="section-subtitle">Exploring my leadership activities and academic history.</p>
+
+      <div class="tabs-container">
+        <button class="tab-btn active" id="tab-leadership">Leadership & Experience</button>
+        <button class="tab-btn" id="tab-education">Education & Background</button>
+      </div>
+
+      <!-- LEADERSHIP PANELS -->
+      <div class="timeline-pane active" id="pane-leadership">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date">Active</div>
+              <h3 class="timeline-title">Co-Lead</h3>
+              <span class="timeline-org">Mulearn LBSITW</span>
+              <ul class="timeline-desc">
+                <li>Drive micro-learning initiatives across the campus to cultivate technical interest and skills among students.</li>
+                <li>Coordinate and facilitate technical workshops, study groups, and hackathon participation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date">Past / Present</div>
+              <h3 class="timeline-title">Content Subhead</h3>
+              <span class="timeline-org">Google Developer Student Club (GDSC) LBSITW</span>
+              <ul class="timeline-desc">
+                <li>Curated tech resources, event copywriting, and designed informational newsletters to promote tech literacy.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date">Past / Present</div>
+              <h3 class="timeline-title">Content Team Member</h3>
+              <span class="timeline-org">IEEE Student Branch LBSITW</span>
+              <ul class="timeline-desc">
+                <li>Authored technical write-ups and promotional articles, helping boost member engagement and event outreach.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date">Past / Present</div>
+              <h3 class="timeline-title">Subcore Member</h3>
+              <span class="timeline-org">TinkerHub LBSITW</span>
+              <ul class="timeline-desc">
+                <li>Helped host peer-learning meetups, coding sessions, and assisted in building an active open-source culture on campus.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION PANELS -->
+      <div class="timeline-pane" id="pane-education">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date">2024 - 2028</div>
+              <h3 class="timeline-title">B.Tech in Computer Science & Engineering</h3>
+              <span class="timeline-org">LBS Institute of Technology for Women, Poojappura</span>
+              <ul class="timeline-desc">
+                <li>Currently pursuing with a current cumulative grade point average of <strong>8.33 CGPA</strong>.</li>
+                <li>Deepening expertise in database management, web design, object-oriented concepts, and algorithm structures.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content glass-panel">
+              <div class="timeline-date">2022 - 2024</div>
+              <h3 class="timeline-title">High School (Grade XII)</h3>
+              <span class="timeline-org">Kendriya Vidyalaya SAP, Peroorkada, Thiruvananthapuram</span>
+              <ul class="timeline-desc">
+                <li>Completed high school education with a strong focus on Computer Science and Science streams.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+      <p class="section-subtitle">A collection of custom applications I've designed, developed, and maintained.</p>
+
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web & MERN</button>
+        <button class="filter-btn" data-filter="java">Java & Python</button>
+        <button class="filter-btn" data-filter="db">Database & Systems</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card glass-panel" data-category="web">
+          <div class="project-image-box">
+            <div class="project-tags">
+              <span class="project-tag">MERN Stack</span>
+              <span class="project-tag">Blockchain</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Anonymous Drug Reporting</h3>
+            <p class="project-desc">
+              Developed a secure reporting portal ensuring full data immutability. Prevents authorities or external entities from deleting, editing, or tampering with reported cases using blockchain principles.
+            </p>
+            <div class="project-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Academic / Hackathon</span>
+              <a href="https://github.com/Aiswaryeaahh" target="_blank" rel="noopener" class="project-link">
+                GitHub 
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-panel" data-category="java">
+          <div class="project-image-box">
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">OOP</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SmartSpend App</h3>
+            <p class="project-desc">
+              Developed a personal finance and expense tracking desktop application focusing on strict Object-Oriented Programming (OOP) architectures in Java.
+            </p>
+            <div class="project-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Core Java Desktop</span>
+              <a href="https://github.com/Aiswaryeaahh" target="_blank" rel="noopener" class="project-link">
+                GitHub 
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-panel" data-category="db">
+          <div class="project-image-box">
+            <div class="project-tags">
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">HTML</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Library Management System</h3>
+            <p class="project-desc">
+              Designed and implemented a database-driven system to manage book inventories, user accounts, checkout history, and transaction logs using MySQL relational backend.
+            </p>
+            <div class="project-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Database Project</span>
+              <a href="https://github.com/Aiswaryeaahh/Library-Management-using-MySql" target="_blank" rel="noopener" class="project-link">
+                GitHub 
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card glass-panel" data-category="web">
+          <div class="project-image-box">
+            <div class="project-tags">
+              <span class="project-tag">HTML & CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Netflix Clone & UI Projects</h3>
+            <p class="project-desc">
+              Built pixel-perfect UI clones and responsive layouts featuring dynamic API integrations, content search filtering, and interactive state management (such as dark mode toggles).
+            </p>
+            <div class="project-footer">
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 500;">Frontend Works</span>
+              <a href="https://github.com/Aiswaryeaahh" target="_blank" rel="noopener" class="project-link">
+                GitHub 
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS SECTION -->
+  <section class="achievements" id="achievements">
+    <div class="container">
+      <h2 class="section-title">Key <span class="gradient-text">Achievements</span></h2>
+      <p class="section-subtitle">Milestones and honors earned throughout my development path.</p>
+
+      <div class="achievements-grid">
+        <div class="achievement-card glass-panel">
+          <div class="achievement-icon">🌎</div>
+          <h3 class="achievement-title">Global Top 300</h3>
+          <p class="achievement-desc">
+            Ranked in the top 300 projects globally at TinkerHack 4.0, one of the world's largest women's hackathons.
+          </p>
+        </div>
+
+        <div class="achievement-card glass-panel">
+          <div class="achievement-icon">🏆</div>
+          <h3 class="achievement-title">1st Place Winner</h3>
+          <p class="achievement-desc">
+            Secured 1st place in the college-level TinkerHack 4.0 hackathon hosted at MBCET.
+          </p>
+        </div>
+
+        <div class="achievement-card glass-panel">
+          <div class="achievement-icon">🐙</div>
+          <h3 class="achievement-title">Active Open Source</h3>
+          <p class="achievement-desc">
+            Maintained a continuous GitHub presence with over 36 active repositories covering C, Python, Java, and fullstack web structures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's <span class="gradient-text-alt">Connect</span></h2>
+      <p class="section-subtitle">Interested in collaborating or discussing an internship opportunity? Reach out anytime!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div>
+            <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">Let's talk about opportunities!</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 2.5rem;">
+              I am actively looking for software development, fullstack, or frontend developer internships. If you have a role available, want to ask about my projects, or just talk tech, feel free to drop a message or contact me directly!
+            </p>
+            
+            <div class="contact-details">
+              <div class="contact-card glass-panel">
+                <div class="contact-card-icon">📞</div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">Phone</span>
+                  <span class="contact-card-value"><a href="tel:+919633894052">+91 9633894052</a></span>
+                </div>
+              </div>
+
+              <div class="contact-card glass-panel">
+                <div class="contact-card-icon">✉️</div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">Email</span>
+                  <span class="contact-card-value"><a href="mailto:aiswaryavs420@gmail.com">aiswaryavs420@gmail.com</a></span>
+                </div>
+              </div>
+
+              <div class="contact-card glass-panel">
+                <div class="contact-card-icon">📍</div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">Location</span>
+                  <span class="contact-card-value">Thiruvananthapuram, Kerala, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 style="font-size: 1rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.5px;">Find me on</h4>
+            <div class="social-links">
+              <a href="https://github.com/Aiswaryeaahh" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/aiswarya-v-s-b2460832a/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form glass-panel">
+          <form id="portfolio-contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Hi Aiswarya, we would love to schedule an interview..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">
+        AISWARYA V S
+      </div>
+      <p class="footer-text">
+        © 2026 Aiswarya V S. Made with <span class="footer-heart">❤️</span> and code.
+      </p>
+    </div>
+  </footer>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- SCRIPT IMPORT -->
+  <script src="script.js"></script>
+</body>
+</html>
